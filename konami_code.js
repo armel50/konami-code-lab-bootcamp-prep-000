@@ -47,6 +47,11 @@ function init() {
         break;
       }
       
+        if(check.length===10){
+         console.log(check);
+         console.log(codes);
+          arrayMatch(check);
+        }
       
     }
       
@@ -54,9 +59,3 @@ function init() {
 
    
 }
-
-        if(check.length===10){
-         console.log(check);
-         console.log(codes);
-          arrayMatch(check);
-        }
