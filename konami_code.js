@@ -44,7 +44,9 @@ function init() {
         console.log(e.key);
         check.push(e.key);
         
-        break;
+        if(check.length===10){
+          
+        }
         
       }
       
