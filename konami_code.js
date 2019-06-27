@@ -26,10 +26,11 @@ function arrayMatch(check){
   if(trueOrFalse.includes("false")){
     console.log("Nooooooo");
     check.length=0;
+    init();
    
   }else{
     console.log("yessssssssss");
-    return "it was fine";
+    
   }
   
 }
