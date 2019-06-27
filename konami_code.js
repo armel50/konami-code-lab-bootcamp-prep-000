@@ -42,12 +42,9 @@ function init() {
     while(check.length!==10){
     
   
-      if(e.key===codes[i]){
+   
         console.log(e.key);
         check.push(e.key);
-        i++;
-        
-       
         
       } 
         if(check.length===10){
