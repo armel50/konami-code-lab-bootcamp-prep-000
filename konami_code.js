@@ -11,6 +11,9 @@ const codes = [
   "a"
 ];
 var check=[];
+function arrayMatch(){
+  console.log("arrayMatch");
+}
 
 function init() {
 
@@ -25,10 +28,7 @@ function init() {
         if(check.length===10){
          console.log(check);
          console.log(codes);
-         if(check===codes){
-           console.log("Typ");
-         }
-          
+          arrayMatch(check);
         }
         break;
       }
