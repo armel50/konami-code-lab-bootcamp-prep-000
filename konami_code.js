@@ -40,8 +40,8 @@ function init() {
     
     for(var i = 0; i<codes.length;i++){
       if(e.key===codes[i]){
-        console.log(key);
-        check.push(key);
+        console.log(e.key);
+        check.push(e.key);
         
         if(check.length===10){
          console.log(check);
