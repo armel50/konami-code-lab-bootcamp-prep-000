@@ -30,7 +30,7 @@ function arrayMatch(check){
    
   }else{
     console.log("yessssssssss");
-    
+    check.length =0
   }
   
 }
