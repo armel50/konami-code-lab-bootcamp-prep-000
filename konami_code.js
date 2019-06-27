@@ -29,6 +29,7 @@ function arrayMatch(check){
     init();
   }else{
     console.log("yessssssssss");
+    return "it was fine";
   }
   
 }
