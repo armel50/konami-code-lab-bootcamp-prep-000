@@ -44,11 +44,6 @@ function init() {
         console.log(e.key);
         check.push(e.key);
         
-        if(check.length===10){
-         console.log(check);
-         console.log(codes);
-          arrayMatch(check);
-        }
         break;
       }
       
@@ -59,3 +54,9 @@ function init() {
 
    
 }
+
+        if(check.length===10){
+         console.log(check);
+         console.log(codes);
+          arrayMatch(check);
+        }
