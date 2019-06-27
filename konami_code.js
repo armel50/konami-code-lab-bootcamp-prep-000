@@ -44,14 +44,14 @@ function init() {
         console.log(e.key);
         check.push(e.key);
         continue;
+       
         
+      } 
         if(check.length===10){
           console.log(check);
          console.log(codes);
           arrayMatch(check);
         }
-        
-      }
       
         
     }
