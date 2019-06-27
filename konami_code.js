@@ -45,6 +45,7 @@ function init() {
         check.push(e.key);
         
         break;
+        
       }
       
         if(check.length===10){
