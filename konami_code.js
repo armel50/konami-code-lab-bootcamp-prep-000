@@ -45,17 +45,14 @@ function init() {
         check.push(e.key);
         
         if(check.length===10){
-          
+          console.log(check);
+         console.log(codes);
+          arrayMatch(check);
         }
         
       }
       
-        if(check.length===10){
-         console.log(check);
-         console.log(codes);
-          arrayMatch(check);
-        }
-      
+        
     }
       
     });
