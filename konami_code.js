@@ -37,8 +37,8 @@ function arrayMatch(check){
 
 function init() {
 
-  document.addEventListener("keydown",function(e){
-    i=0;
+  document.querySelector("body").addEventListener("keydown",function(e){
+   
         console.log(e.key);
         check.push(e.key);
         
