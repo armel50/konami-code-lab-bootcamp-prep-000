@@ -39,10 +39,11 @@ function init() {
   document.addEventListener("keydown",function(e){
     
     
-    for(var i = 0; i<codes.length;i++){
+    while(check.length!==10){
       if(e.key===codes[i]){
         console.log(e.key);
         check.push(e.key);
+        continue;
         
         if(check.length===10){
           console.log(check);
