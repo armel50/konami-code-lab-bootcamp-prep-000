@@ -38,12 +38,10 @@ function init() {
 
   document.addEventListener("keydown",function(e){
     i=0;
-    
-    while(check.length!==10){
-     console.log(e.key);
+        console.log(e.key);
         check.push(e.key);
         
-      } 
+      
         if(check.length===10){
           console.log(check);
          console.log(codes);
