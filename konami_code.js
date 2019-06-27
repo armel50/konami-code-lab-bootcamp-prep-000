@@ -11,8 +11,24 @@ const codes = [
   "a"
 ];
 var check=[];
-function arrayMatch(){
+var trueOrFalse=[];
+function arrayMatch(check){
   console.log("arrayMatch");
+  for(var i =0;i<check.length;i++){
+    if(check[i]===codes[i]){
+      trueOrFalse.push("true");
+    }else{
+      trueOrFalse.push("false");
+    }
+    
+  }
+  
+  if(trueOrFalse.includes("false")){
+    console.log("Nooooooo");
+  }else{
+    console.log("yessssssssss");
+  }
+  
 }
 
 function init() {
