@@ -37,12 +37,15 @@ function arrayMatch(check){
 function init() {
 
   document.addEventListener("keydown",function(e){
-    
+    i=0;
     
     while(check.length!==10){
+    
+  
       if(e.key===codes[i]){
         console.log(e.key);
         check.push(e.key);
+        i++;
         continue;
        
         
