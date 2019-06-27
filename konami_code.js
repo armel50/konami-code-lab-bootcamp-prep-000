@@ -25,6 +25,7 @@ function arrayMatch(check){
   
   if(trueOrFalse.includes("false")){
     console.log("Nooooooo");
+    init();
   }else{
     console.log("yessssssssss");
   }
