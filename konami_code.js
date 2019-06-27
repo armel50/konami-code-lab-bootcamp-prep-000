@@ -28,7 +28,7 @@ function arrayMatch(check){
     check.length=0;
     init();
   }else{
-    alert("yessssssssss");
+    console.log("yessssssssss");
   }
   
 }
