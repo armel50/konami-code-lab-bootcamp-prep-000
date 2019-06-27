@@ -26,7 +26,7 @@ function arrayMatch(check){
   if(trueOrFalse.includes("false")){
     console.log("Nooooooo");
     check.length=0;
-    init();
+   
   }else{
     console.log("yessssssssss");
     return "it was fine";
@@ -40,10 +40,7 @@ function init() {
     i=0;
     
     while(check.length!==10){
-    
-  
-   
-        console.log(e.key);
+     console.log(e.key);
         check.push(e.key);
         
       } 
