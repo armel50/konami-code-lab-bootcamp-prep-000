@@ -46,7 +46,7 @@ function init() {
         console.log(e.key);
         check.push(e.key);
         i++;
-        continue;
+        
        
         
       } 
