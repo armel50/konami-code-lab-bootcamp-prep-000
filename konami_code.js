@@ -35,13 +35,15 @@ function init() {
           console.log(trueOrFalse);
           i=0;
             if(trueOrFalse.includes("false")){
-                  console.log("Nooooooo");
+                  //console.log("Nooooooo");
                   check.length=0;
                   trueOrFalse.length=0;
             
            
             }else{
-                console.log("yessssssssss");
+                //console.log("yessssssssss");
+                
+                alert("Hurray");
                 check.length =0;
                  trueOrFalse.length=0;
             }
