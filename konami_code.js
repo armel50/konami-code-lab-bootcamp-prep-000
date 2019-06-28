@@ -19,7 +19,7 @@ var i=0;
 function init() {
 
   document.querySelector("body").addEventListener("keydown",function(e){
-   console.log("this is "+i);
+       //console.log("this is "+i);
       //console.log(e.key);
         check.push(e.key);
         if(e.key===codes[i]){
