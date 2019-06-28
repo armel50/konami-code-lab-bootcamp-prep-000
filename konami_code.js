@@ -15,8 +15,8 @@ var trueOrFalse=[];
 
 
 var i=0;
-init(0);
-function init(v) {
+
+function init() {
 
   document.addEventListener("keydown",function(e){
    console.log("this is "+i);
