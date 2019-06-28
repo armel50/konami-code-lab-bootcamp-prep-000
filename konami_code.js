@@ -43,7 +43,7 @@ function init() {
             }else{
                 //console.log("yessssssssss");
                 
-                alert("Hurray!");
+                alert("Yessssssss");
                 check.length =0;
                  trueOrFalse.length=0;
             }
