@@ -32,7 +32,8 @@ function init() {
           
             if(trueOrFalse.includes("false")){
                   console.log("Nooooooo");
-                  check.length=0;trueOrFalse.length=0;
+                  check.length=0;
+                  trueOrFalse.length=0;
             
            
             }else{
