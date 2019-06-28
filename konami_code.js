@@ -33,7 +33,7 @@ function init() {
         
         if(check.length===10){
           console.log(trueOrFalse);
-          
+          i=0;
             if(trueOrFalse.includes("false")){
                   console.log("Nooooooo");
                   check.length=0;
