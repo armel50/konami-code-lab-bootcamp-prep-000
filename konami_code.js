@@ -18,15 +18,17 @@ var i=0;
 function init() {
 
   document.addEventListener("keydown",function(e){
-   while(check.length!==10){
+   console.log("this is "+i);
       console.log(e.key);
         check.push(e.key);
         if(e.key===codes[i]){
           trueOrFalse.push("true");
+          i++;
         }else{
           trueOrFalse.push("false");
+          i++;
         }
-   }
+   
        
         
         if(check.length===10){
