@@ -30,7 +30,11 @@ function init() {
         }
    
        
-        
+      
+             
+    });
+    
+      
         if(check.length===10){
           console.log(trueOrFalse);
           i=0;
@@ -48,8 +52,6 @@ function init() {
                  trueOrFalse.length=0;
             }
               }
-             
-    });
 
    
 }
