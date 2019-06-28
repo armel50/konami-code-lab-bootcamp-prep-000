@@ -19,15 +19,15 @@ function init() {
 
   document.addEventListener("keydown",function(e){
    while(check.length!==10){
-     
-   }
-        console.log(e.key);
+      console.log(e.key);
         check.push(e.key);
         if(e.key===codes[i]){
           trueOrFalse.push("true");
         }else{
           trueOrFalse.push("false");
         }
+   }
+       
         
         if(check.length===10){
           console.log(trueOrFalse);
