@@ -18,7 +18,7 @@ var i=0;
 
 function init() {
 
-  document.addEventListener("keydown",function(e){
+  document.querySelector("body").addEventListener("keydown",function(e){
    console.log("this is "+i);
       //console.log(e.key);
         check.push(e.key);
