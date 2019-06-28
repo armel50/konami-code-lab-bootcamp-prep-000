@@ -29,10 +29,10 @@ function init() {
         i++;
         if(check.length===10){
           console.log(trueOrFalse);
-          trueOrFalse.length=0;
+          
             if(trueOrFalse.includes("false")){
                   console.log("Nooooooo");
-                  check.length=0;
+                  check.length=0;trueOrFalse.length=0;
             
            
             }else{
