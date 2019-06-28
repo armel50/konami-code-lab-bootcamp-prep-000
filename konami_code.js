@@ -18,8 +18,8 @@ var i=0;
 function init() {
 
   document.addEventListener("keydown",function(e){
-   console.log("this is "+i);
-      console.log(e.key);
+  // console.log("this is "+i);
+      //console.log(e.key);
         check.push(e.key);
         if(e.key===codes[i]){
           trueOrFalse.push("true");
@@ -43,7 +43,7 @@ function init() {
             }else{
                 //console.log("yessssssssss");
                 
-                alert("Hurray");
+                alert("Hurray!");
                 check.length =0;
                  trueOrFalse.length=0;
             }
