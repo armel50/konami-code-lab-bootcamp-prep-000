@@ -36,22 +36,28 @@ function arrayMatch(check){
 }
 
 function init() {
-
+i=0;
   document.querySelector("body").addEventListener("keydown",function(e){
    
         console.log(e.key);
         check.push(e.key);
-        
-      
-        if(check.length===10){
-          console.log(check);
-         console.log(codes);
-          arrayMatch(check);
+        if(e.key===codes[i]){
+          trueOrFalse.push("true");
+        }else{
+          trueOrFalse.push("false");
         }
-      
-        
-    
-      
+              if(check.length===10){
+                 if(trueOrFalse.includes("false")){
+            console.log("Nooooooo");
+            check.length=0;
+            
+           
+          }else{
+            console.log("yessssssssss");
+            check.length =0;
+          }
+              }
+             
     });
 
    
