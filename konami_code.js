@@ -42,9 +42,7 @@ function init() {
             }else{
                 //console.log("yessssssssss");
                 
-                alert("Yessssssss",function(){
-                  console.log("the alert");
-                });
+                alert("Yessssssss";
                 check.length =0;
                  trueOrFalse.length=0;
             }
