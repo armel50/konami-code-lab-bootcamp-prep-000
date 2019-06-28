@@ -30,7 +30,7 @@ function init() {
         }
         
           
-        if(check.length===10){
+        if(check.length===codes.length){
           console.log(trueOrFalse);
           i=0;
             if(trueOrFalse.includes("false")){
