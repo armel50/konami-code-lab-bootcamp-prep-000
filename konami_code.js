@@ -26,6 +26,7 @@ i=0;
         }else{
           trueOrFalse.push("false");
         }
+        i++;
         if(check.length===10){
           console.log(trueOrFalse);
             if(trueOrFalse.includes("false")){
