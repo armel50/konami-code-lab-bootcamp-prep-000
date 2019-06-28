@@ -39,6 +39,7 @@ function init() {
             }else{
                 console.log("yessssssssss");
                 check.length =0;
+                 trueOrFalse.length=0;
             }
               }
              
